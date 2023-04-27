@@ -9,15 +9,27 @@
 button {
   cursor: pointer;
 }
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+}
+:root {
+  background-color:#FFFFFF;
+}
 
 /* Хедер */
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
-  font-size: 21px;
-  line-height: 1.16;
+  font-size: 18px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  color:#4d5ae5;
+  text-transform: uppercase
+}
+
+.logo-web {
   color: #2e2f42;
 }
 
@@ -33,6 +45,10 @@ button {
 .nav-list-item:hover,
 .nav-list-item:focus {
   color: #404bbf;
+}
+
+.adress {
+  font-style: normal;
 }
 .contact-email,
 .contact-tel {
@@ -56,6 +72,11 @@ button {
 /*основний блок*/
 
 /* сторінка герой */
+
+.hero-section{
+  background-color:#2e2f42;
+}
+
 .main-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -64,7 +85,7 @@ button {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  /* color: #ffffff; */
+  color: #ffffff; 
 }
 
 .order-service-btn {
@@ -126,6 +147,10 @@ button {
 
 /* наша команда */
 
+.our-team{
+  background-color: #F4F4FD 
+}
+
 .our-team-title{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -155,21 +180,33 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.our-team-mark{
+  background-color: #FFFFFF
+}
+
 /* Футер */
 
-/footer-description {
+.footer{
+  background-color:#2e2f42;
+}
+
+.footer-description {
   font-family: 'Roboto', sans-serif;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: #F4F4FD;;
+}
+
+.logo-web-footer{
+  color:#f4f4fd;
 }
 
 /* portfolio */
 
 .filter-btn {
-  font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
