@@ -9,12 +9,10 @@
 button {
   cursor: pointer;
 }
-.body {
+:root {
   font-family: "Roboto", sans-serif;
   color: #434455;
-}
-:root {
-  background-color:#FFFFFF;
+  background-color: #ffffff;
 }
 
 /* Хедер */
@@ -25,8 +23,8 @@ button {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color:#4d5ae5;
-  text-transform: uppercase
+  color: #4d5ae5;
+  text-transform: uppercase;
 }
 
 .logo-web {
@@ -68,8 +66,8 @@ button {
 
 /* сторінка герой */
 
-.hero-section{
-  background-color:#2e2f42;
+.hero-section {
+  background-color: #2e2f42;
 }
 
 .main-title {
@@ -80,7 +78,7 @@ button {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .order-service-btn {
@@ -142,96 +140,98 @@ button {
 
 /* наша команда */
 
-.our-team{
-  background-color: #F4F4FD 
+.our-team {
+  background-color: #f4f4fd;
 }
 
-.our-team-title{
-  font-family: 'Roboto', sans-serif;
+.our-team-title {
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2E2F42;
+  color: #2e2f42;
+}
+.our-team-item {
+  background-color: #f4f4fd;
 }
 
 .our-team-name {
-  font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
-background-color: #FFFFFF
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  background-color: #ffffff;
 }
 
-.our-team-position{
-  font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
-background-color: #FFFFFF
+.our-team-position {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
 }
 
 /* Футер */
 
-.footer{
-  background-color:#2e2f42;
+.footer {
+  background-color: #2e2f42;
 }
 
 .footer-description {
-  font-family: 'Roboto', sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #F4F4FD;;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
-.logo-web-footer{
-  color:#f4f4fd;
+.logo-web-footer {
+  color: #f4f4fd;
 }
 
 /* portfolio */
 
 .filter-btn {
-font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-color: #4D5AE5;
-background: #F4F4FD;;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
-  color: #FFFFFF;
-  background: #404BBF;
+  color: #ffffff;
+  background: #404bbf;
 }
 
 .project-name {
-  font-family: 'Roboto', sans-serif;
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
-.project-description{
-  font-family: 'Roboto', sans-serif;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: #434455;
+.project-description {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
