@@ -9,10 +9,14 @@
 button {
   cursor: pointer;
 }
+
 :root {
+  --accent-color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
-  background-color: #ffffff, var(#ffffff);
+}
+.body {
+  background-color: var(--accent-color);
 }
 
 /* Хедер */
@@ -32,7 +36,6 @@ button {
 }
 
 .nav-list-item {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -49,7 +52,6 @@ button {
   font-style: normal;
 }
 .contact {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -71,7 +73,6 @@ button {
 }
 
 .main-title {
-  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
@@ -82,7 +83,6 @@ button {
 }
 
 .order-service-btn {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -108,7 +108,6 @@ button {
 /* наші цілі */
 
 .goals {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -117,7 +116,6 @@ button {
 }
 
 .goals-description {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -128,7 +126,6 @@ button {
 /* приклади робіт */
 
 .work-examples-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -145,7 +142,6 @@ button {
 }
 
 .our-team-title {
-  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -159,7 +155,6 @@ button {
 }
 
 .our-team-name {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -169,7 +164,6 @@ button {
 }
 
 .our-team-position {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -185,7 +179,6 @@ button {
 }
 
 .footer-description {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -200,7 +193,6 @@ button {
 /* portfolio */
 
 .filter-btn {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
