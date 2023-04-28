@@ -11,12 +11,12 @@ button {
 }
 
 :root {
-  --accent-color: #ffffff;
+  --color: #ffffff;
   font-family: "Roboto", sans-serif;
   color: #434455;
 }
-[body] {
-  background-color: #ffffff;
+.body {
+  background-color: var(--color);
 }
 
 /* Хедер */
